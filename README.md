@@ -4,7 +4,7 @@ pasto is a simple command line approach for pasting contents from the clipboard
 
 ## Building
 * ```gcc -o clipboard clipboard.c -lX11```
-*```chmod +x clipboard```
+* ```chmod +x clipboard```
 * ```chmod +x pasto.sh```
 * Update your shell profile to include: ```alias pasto="~/path/to/pasto.sh"```
 
