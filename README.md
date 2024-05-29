@@ -10,7 +10,14 @@ pasto is a simple command line approach for pasting contents from the clipboard
 * Update your shell profile to include: ```alias pasto="~/path/to/pasto.sh"```
 
 ## Usage
-* create a directory with a file with clipboard content:
-```pasto newdirectory newfile.txt```
-* overwrite a file in current directory:
-```pasto newfile.txt -o```
+* Create a directory with a file with clipboard content:
+```pasto newdirectory newfile.py```
+* Overwrite a file in current directory:
+```pasto newfile -o```
+
+
+### Flags
+*     -o: Overwrite an existing file.  
+*     -a: Append the clipboard content to the file.
+*     -n: Open the file after creation/modification.
+    
