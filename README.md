@@ -6,8 +6,11 @@ pasto is a simple command line approach for pasting contents from the clipboard
 * Clone the repo and navigate to its directory
 * Build the c file:
 *      gcc -o pasto pasto.c -lX11
-* Update your shell profile to include:
-*      alias pasto="~/path/to/pasto"
+* Update your shell profile to include with the appropriate path:
+*      echo 'alias pasto="~/path/to/pasto"' >> ~/.bashrc
+* Reload source to apply changes:
+*     source ~/.bashrc
+
 
 ## Usage
 * Create a directory with a file with clipboard content:
